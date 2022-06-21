@@ -8,7 +8,7 @@ function closePlayerConfig() {
     playerConfigOverlayElement.style.display = 'none';
     backdropElement.style.display = 'none';
     formElement.firstElementChild.classList.remove('error');
-    errorsOutputElement.textContent = ' '
+    errorsOutputElement.textContent = ' ';
     formElement.firstElementChild.lastElementChild.value = '';
 }
 
